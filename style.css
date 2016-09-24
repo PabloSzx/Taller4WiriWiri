@@ -45,6 +45,7 @@ body, marquee{
 	width: auto;
 }
 .arrow{
+	margin-top: -10vh;
 	height: 10vh;
 	opacity: 0.6;
 }
