@@ -4,7 +4,7 @@ html{
 	
 }
 body{
-	font-family: SimpsonFont;
+	font-family: FuturaPTBold;
 }
 body, text{
 	text-align: center;
@@ -40,6 +40,7 @@ body img{
 	z-index: 0;
 	height: 50vh;
 	background-color: rgb(79,118,223);
+	padding: 15px;
 }
 #audio{
 	
@@ -152,4 +153,8 @@ body img{
 @font-face {
     font-family: SimpsonFont;
     src: url(simpsonfont/Simpsonfont.ttf);
+}
+@font-face {
+    font-family: FuturaPTBold;
+    src: url(simpsonfont/FuturaPTBold.otf);
 }
