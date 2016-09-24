@@ -10,9 +10,6 @@ body, text{
 	text-align: center;
 	font-size: 7vh;
 }
-img {
-    max-width: 100% !important;
-  }
 body, marquee{
 	margin-bottom: 5vh;
 	background-color: transparent;
@@ -24,6 +21,7 @@ nav{
 	font-size: 2em;
 	line-height: 120%;
 	left: 20vw;
+	
 
 }
 nav a {
@@ -42,8 +40,9 @@ body img{
 	height: 100vh;
 }
 #div-nav{
-	width: 200%;
-	background-color: rgba(79,118,223,1);
+	z-index: 0;
+	height: 50vh;
+	background-color: rgb(79,118,223);
 }
 #audio{
 	
@@ -109,7 +108,7 @@ body img{
 	position: relative;
     top: 0;
     left: 0;
-    width: 35vw !important;
+    width: 35vw;
     overflow-y: hidden;
     border-radius: 5px;
 }
@@ -118,7 +117,7 @@ body img{
 	position: relative;
     top: 0;
     left: 0;
-    width: 40vw !important;
+    width: 40vw;
     overflow-y: hidden;
 }
 .rosquilla{
