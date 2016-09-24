@@ -11,6 +11,13 @@ van al  terminal, hacen cd al directorio del proyecto y escriben la siguiente li
 python -m SimpleHTTPServer 8000
 
 
+La pagina es estos momentos se está alojando en la siguiente pagina:
+
+https://tarea4wiriwiri.herokuapp.com/
+
+Todo lo que se suba/cambie en git va a cambiar la página
+
+
 
 
 esta pagina tiene las mejores referencias para aprender html: 
