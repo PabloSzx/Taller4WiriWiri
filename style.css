@@ -12,7 +12,6 @@ body, text{
 }
 body, marquee{
 	margin-bottom: 5vh;
-	background-color: transparent;
 }
 nav{
 	z-index: 2;
@@ -21,8 +20,6 @@ nav{
 	font-size: 2em;
 	line-height: 120%;
 	left: 20vw;
-	
-
 }
 nav a {
 	color: black;
