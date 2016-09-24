@@ -1,5 +1,7 @@
 html{
+	width: 100vw;
 	overflow-x: hidden;
+	
 }
 body{
 	font-family: SimpsonFont;
