@@ -19,11 +19,11 @@ body, marquee{
 }
 nav{
 	z-index: 2;
-	position: relative;
-	top: 2vh;
+	position: absolute;
+	top: 102%;
 	font-size: 2em;
 	line-height: 120%;
-	left: -5vw;
+	left: 20vw;
 
 }
 nav a {
