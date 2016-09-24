@@ -92,6 +92,9 @@ body img{
 .arrow{
 	margin-top: -10vh;
 	height: 10vh;
+	opacity: 1;
+}
+.arrow:hover{
 	opacity: 0.6;
 }
 .marquee{
