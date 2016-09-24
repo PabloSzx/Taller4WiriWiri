@@ -23,7 +23,32 @@ body, marquee{
 	margin-top: 5vh;
 }
 #div-backgroundimg{
+	align-items: center;
+	height: 100vh;
 	max-height: 100vh;
+}
+#div-arrow{
+	align-items: right;
+	position: absolute;
+	right: 7vw;
+	z-index: 10;
+	margin-top: -100px;
+
+}
+#div-marquee{
+	height: 75vh;
+	width: 100vw;
+}
+.arrow{
+	height: 10vh;
+	opacity: 0.6;
+}
+.marquee{
+	position: fixed;
+	z-index: 10;
+}
+.rosquilla-div{
+	position: absolute;
 }
 .yellow{
 	color: yellow;
@@ -32,9 +57,24 @@ body, marquee{
 	position: relative;
     top: 0;
     left: 0;
-    width: 100% !important;
-    height: 100% !important;
+    width: 35vw !important;
     overflow-y: hidden;
+    border-radius: 5px;
+}
+.logo-simpsons{
+	margin-top: 10px;
+	position: relative;
+    top: 0;
+    left: 0;
+    width: 40vw !important;
+    overflow-y: hidden;
+}
+.rosquilla{
+	position: relative;
+	top: 50;
+	left: 50;
+	width: 5vw;
+	
 }
 
 .simpsons-backgroundcolor{
