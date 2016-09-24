@@ -26,12 +26,20 @@ Para música : http://www.w3schools.com/html/html5_audio.asp
 
 Lo que pide la profe:
 Estilo de texto en marquesina
+
 Imagen Fija
+
 Imagen animada
+
 Vinculo
+
 Autor
+
 Color de fondo Página
+
 color de fondo marquesina
+
 musica
+
 
 Ejemplos de marquesinas: http://www.fillster.com/htmlcodes/marquees.html
