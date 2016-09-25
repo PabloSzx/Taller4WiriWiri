@@ -5,7 +5,8 @@ html{
 	
 }
 body{
-	font-family: FuturaPTBold;
+	font-family: FuturaPTBold !important;
+	font-family: SimpsonFont;
 }
 body, text{
 	text-align: center;
