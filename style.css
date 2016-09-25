@@ -38,9 +38,8 @@ body img{
 }
 #div-nav{
 	z-index: 0;
-	height: 50vh;
+	height: 100vh;
 	background-color: rgb(79,118,223);
-	padding: 15px;
 }
 #audio{
 	
@@ -48,6 +47,32 @@ body img{
 #sofa{
 	align-content: center;
 	margin-top: 5vh;
+}
+#characters{
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	top: 200%;
+}
+#gifs img{
+	position: relative;
+	vertical-align: middle;
+	width: 20vw;
+	border-radius: 30px;
+	top: 60vh;
+	left: -5vw;
+}
+#gif1{
+
+}
+#gif2{
+
+}
+#gif3{
+
+}
+#gif4{
+
 }
 #div-backgroundimg{
 	align-items: center;
@@ -64,7 +89,7 @@ body img{
 }
 #div-marquee{
 	position: absolute;
-	top: 160%;
+	top: 0;
 	margin-top: 0;
 	padding-top: 0;
 	height: auto;
@@ -94,10 +119,6 @@ body img{
 }
 .arrow:hover{
 	opacity: 0.6;
-}
-.marquee{
-	position: fixed;
-	z-index: 10;
 }
 .rosquilla-div{
 	position: absolute;
