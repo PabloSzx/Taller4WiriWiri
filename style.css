@@ -145,12 +145,32 @@ right: 0;
 	position: absolute;
 	margin: auto;
 	left: 0;
-	right: 0;
-	top: 12vh;
-	width: 72vw;
-	height: 40vw;
-	border:30px solid rgba(0,0,0,1);
+	right: 6vw;
+	top: 19.7vh;
+	width: 54.7vw;
+	height: 31.3vw;
+	border:10px solid rgba(0,0,0,1);
 	border-radius: 20px;
+	z-index: 2;
+}
+#nada{
+	
+}
+#tv{
+	position: absolute;
+	width: 78vw;
+	z-index: 1;
+	margin:auto;
+	left: 8.9vw;
+	right: 6vw;
+	top: 9vh;
+}
+#title-video{
+	position: absolute;
+	z-index: 5;
+	margin: 0;
+	left: 0;
+	right: 0vw;
 }
 
 #div-arrow-down{
