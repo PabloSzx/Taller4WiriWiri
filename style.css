@@ -8,6 +8,7 @@ body{
 	font-family: FuturaPTBold !important;
 	font-family: SimpsonFont;
 }
+
 body, text{
 	text-align: center;
 	font-size: 7vh;
@@ -65,6 +66,9 @@ body img{
 	top: 400%;
 	height: 100vh;
 	background-color: rgb(162,35,44);
+}
+#list li {
+    list-style-type: none;
 }
 #div-nav{
 	z-index: 0;
