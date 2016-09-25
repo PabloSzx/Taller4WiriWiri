@@ -147,7 +147,7 @@ right: 0;
 }
 #div-marquee{
 	position: absolute;
-	top: 0;
+	top: 10vh;
 	margin-top: 0;
 	padding-top: 0;
 	height: auto;
@@ -173,6 +173,8 @@ right: 0;
 	top: 8vh;
 	right: -3vw;
 	}
+#title-characters{
+}
 .arrow{
 	height: 10vh;
 	opacity: 1;
