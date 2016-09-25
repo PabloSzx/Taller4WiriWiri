@@ -71,7 +71,9 @@ body img{
 	height: 100vh;
 }
 #audio{
-	
+	position: absolute;
+	right: 0;
+	z-index: 20;
 }
 #rosquilla-div{
 	
@@ -135,15 +137,27 @@ top: 100vh;
 right: 0;
 }
 
+#playlist{
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 12vh;
+	width: 72vw;
+	height: 40vw;
+	border:30px solid rgba(0,0,0,1);
+	border-radius: 20px;
+}
+
 #div-arrow-down{
 	position: absolute;
 	bottom: 5vh;
-	right: 0;
+	right: 1vw;
 }
 #div-arrow-up{
 	position: absolute;
 	bottom: 5vh;
-	left: 0;
+	left: 1vw;
 }
 #div-marquee{
 	position: absolute;
