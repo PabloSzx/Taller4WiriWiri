@@ -70,6 +70,9 @@ body img{
 #list li {
     list-style-type: none;
 }
+#text-history{
+	font-size: 0.6em;
+}
 #div-nav{
 	z-index: 0;
 	height: 100vh;
@@ -146,27 +149,25 @@ right: 0;
 	margin: auto;
 	left: 0;
 	right: 6vw;
-	top: 19.7vh;
+	top: 18.7vh;
 	width: 54.9vw;
 	height: 31.3vw;
 	border:10px solid rgba(0,0,0,1);
 	border-radius: 20px;
 	z-index: 2;
 }
-#nada{
-	
-}
 #tv{
 	position: absolute;
-	width: 78vw;
-	z-index: 1;
-	margin:auto;
+	margin: auto;
 	left: 8.9vw;
 	right: 6vw;
 	top: 9vh;
+	width: 78vw;
+	height: 43vw;
+	z-index: 1;
 }
 #title-video{
-	position: absolute;
+	position: relative;
 	z-index: 5;
 	margin: 0;
 	left: 0;
