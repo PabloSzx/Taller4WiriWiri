@@ -2,7 +2,6 @@ html{
 	width: 100vw;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
-	
 }
 body{
 	font-family: FuturaPTBold !important;
@@ -23,7 +22,6 @@ nav{
 	left: -10vw;
 	font-size: 2em;
 	line-height: 120%;
-	
 }
 nav a {
 	color: black;
@@ -33,7 +31,6 @@ nav a {
 nav a:hover{
 	color: rgb(255,133,12);
 }
-
 body img{
 	z-index: 1;
 }
@@ -69,18 +66,22 @@ body img{
 }
 #list li {
     list-style-type: none;
+    height: 13vh;
+    font-size: 0.7em;
 }
 #homer-smart{
 	position: absolute;
 	z-index: 0;
 	right: 13vw;
 	width: 9vw;
+	top: 3vh;
 }
 #lisa-smart{
 	position: absolute;
 	z-index: 0;
 	left: 13vw;
-	width: 6vw;
+	width: 9vw;
+	top: 3vh;
 }
 #text-history{
 	font-size: 0.6em;
@@ -117,18 +118,6 @@ body img{
 	width: 20vw;
 	border-radius: 30px;
 }
-#gif1{
-
-}
-#gif2{
-
-}
-#gif3{
-
-}
-#gif4{
-
-}
 #div-backgroundimg{
 	height: 90vh;
 }
@@ -162,7 +151,6 @@ width: 100%;
 top: 100vh;
 right: 0;
 }
-
 #playlist{
 	position: absolute;
 	margin: auto;
@@ -183,14 +171,13 @@ right: 0;
 	top: 9vh;
 	width: 78vw;
 	height: 43vw;
-
 	z-index: 1;
 }
 #title-history{
-	position: absolute;
+	position: relative;
 	left: 0;
 	right: 0;
-	top: 5vh;
+	top: 7vh;
 }
 #title-video{
 	position: relative;
@@ -240,6 +227,60 @@ right: 0;
 	}
 #title-characters{
 }
+#summary-history{
+	font-family: FuturaPTBook;
+	font-size: 17pt;
+	color: white;
+}
+#logo-history{
+	position: absolute;
+	left: 15vw;
+	top: 2vh;
+	width: 21vw;
+}
+#body-history{
+	height: 200%;
+	width: 100%;
+	background-color: rgb(79,118,223);
+}
+#head-body{
+	position: relative;
+	height: 20vh;
+	background-color: rgb(255,217,15);
+}
+#arrow-left{
+	position: absolute;
+	left: 1vw;
+	top: 9vh;
+	width: 10vh;
+}
+#div-title-summary{
+	margin-top: 0;
+	margin-bottom: 4.5vh;
+}
+#title-summary{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 4vh;
+	font-family: FuturaPTBold;
+}
+#div-summary-history{
+	position: absolute;
+	width: 100%;
+	height: 110%;
+	text-align: justify;
+	line-height: 26px;
+	background-color: rgb(79,118,223);
+}
+#box-summary-history{
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	width: 80%;
+}
 .arrow{
 	height: 10vh;
 	opacity: 1;
@@ -247,7 +288,6 @@ right: 0;
 .arrow:hover{
 	opacity: 0.6;
 }
-
 .yellow{
 	color: yellow;
 }
@@ -269,31 +309,24 @@ right: 0;
 }
 .rosquilla{
 	float: left;
-	width: 5vw;
-	
+	width: 5vw;	
 }
-
 .simpsons-backgroundcolor{
 	background-color: rgb(255,217,15);
 }
 .border-radius-1{
 	border-radius: 25px;
 }
-
 .gif-size{
 	width: 300px;
 	height: auto;
 }
-
 .no-padding{
 	padding: 0;
 }
-
 .no-margin{
 	margin: 0;
 }
-
-
 @font-face {
     font-family: SimpsonFont;
     src: url(simpsonfont/Simpsonfont.ttf);
