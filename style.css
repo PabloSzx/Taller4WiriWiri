@@ -70,8 +70,26 @@ body img{
 #list li {
     list-style-type: none;
 }
+#homer-smart{
+	position: absolute;
+	z-index: 0;
+	right: 13vw;
+	width: 9vw;
+}
+#lisa-smart{
+	position: absolute;
+	z-index: 0;
+	left: 13vw;
+	width: 6vw;
+}
 #text-history{
-	font-size: 0.6em;
+	font-size: 0.4em;
+}
+#div-text-history{
+	text-align: justify;
+	position: absolute;
+	top: 20px;
+	padding: 100px;
 }
 #div-nav{
 	z-index: 0;
