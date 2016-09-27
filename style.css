@@ -83,7 +83,8 @@ body img{
 	width: 6vw;
 }
 #text-history{
-	font-size: 0.4em;
+	font-size: 0.6em;
+	font-family: FuturaPTBook;
 }
 #div-text-history{
 	text-align: justify;
@@ -182,7 +183,14 @@ right: 0;
 	top: 9vh;
 	width: 78vw;
 	height: 43vw;
+
 	z-index: 1;
+}
+#title-history{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 5vh;
 }
 #title-video{
 	position: relative;
@@ -293,4 +301,8 @@ right: 0;
 @font-face {
     font-family: FuturaPTBold;
     src: url(simpsonfont/FuturaPTBold.otf);
+}
+@font-face {
+    font-family: FuturaPTBook;
+    src: url(simpsonfont/FuturaPTBook.otf);
 }
